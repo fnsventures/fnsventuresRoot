@@ -1,0 +1,7 @@
+{
+  "name": "fnsventures-site",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-html.js"
+  }
+}
