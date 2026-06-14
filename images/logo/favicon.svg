@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="fav-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="fav-text" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ddd6fe"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#04060d" stroke="url(#fav-border)" stroke-width="1.5"/>
+  <text
+    x="16"
+    y="20.5"
+    text-anchor="middle"
+    fill="url(#fav-text)"
+    font-family="Space Grotesk, system-ui, sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="-0.04em"
+  >F&amp;S</text>
+</svg>
