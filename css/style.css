@@ -256,31 +256,27 @@ h4 {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.95rem;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text);
   transition: color var(--transition);
 }
 
-.logo-img {
-  display: block;
-  height: 52px;
-  width: auto;
-  flex-shrink: 0;
-  transition: transform var(--transition), filter var(--transition);
+.logo::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 12px rgba(34, 211, 238, 0.6);
 }
 
 .logo:hover {
   color: var(--accent-2);
-}
-
-.logo:hover .logo-img {
-  transform: translateY(-1px);
-  filter: drop-shadow(0 0 10px rgba(34, 211, 238, 0.45));
 }
 
 .nav-links {
